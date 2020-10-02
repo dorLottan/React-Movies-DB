@@ -13,8 +13,8 @@ const App = () => (
     <Header />
     <Router>
       <Home path="/React-Movies-DB" />
-      <Movie path="/movie/:movieId" />
-      <Actor path="/actor/:actorId" />
+      <Movie path="/React-Movies-DB/movie/:movieId" />
+      <Actor path="/React-Movies-DB/actor/:actorId" />
       <NotFound default />
     </Router>
     <GlobalStyle />
