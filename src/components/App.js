@@ -12,7 +12,7 @@ const App = () => (
   <>
     <Header />
     <Router>
-      <Home path="/" />
+      <Home path="/React-Movies-DB" />
       <Movie path="/movie/:movieId" />
       <Actor path="/actor/:actorId" />
       <NotFound default />
